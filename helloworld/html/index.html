@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+    <!--导入样式表-->
+    
+    <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
+    <link href="../styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>Mozilla 酷毙了</h1>
+    <!-- alt属性为描述文本 -->
+    <p><img src="../images/firefox.jpg" alt="firefox"/></p>
+    <p>Mozilla是一个全球社区，这里聚集着五湖四海的</p>
+    <ul>
+      <li>技术人员</li>
+      <li>思考者</li>
+      <li>建造者</li>
+    </ul>
+    <p>我们致力于让Internet保持活力，保持畅通，人人皆可贡献，人人皆可创造。我们坚信：开发平台的协助对人的发展至关重要，也决定我们共同的未来。</p>
+    
+    <p>为了达成我们共同的理想，我们遵循一系列的价值观和理念。请参阅<a href="https://www.mozilla.org/zh-CN/about/manifesto/">Mozilla宣言</a>。</p>
+  </body>
+  <button>切换用户</button>
+  <!-- defer属性规定是否对脚本执行进行延迟，直到页面加载为止。 -->
+  <script src="../scripts/main.js" defer></script>
+  <!-- 将 <script> 放在HTML文件的底部附近的原因是浏览器会按照代码在文件中的顺序加载 HTML。如果先加载的 JavaScript 期望修改其下方的 HTML，那么它可能由于 HTML 尚未被加载而失效。因此，将 JavaScript 代码放在 HTML页面的底部附近通常是最好的策略。 -->
+</html>
